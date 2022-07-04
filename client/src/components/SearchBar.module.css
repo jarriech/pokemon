@@ -1,0 +1,58 @@
+.search{
+    display: inline-flex;
+    }
+    
+    .btn{
+        width: 70px;
+        height: 30px;
+        left: 1.5px;
+        top: 1.5px;
+        border: 3px solid deepskyblue;
+        background: transparent;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        cursor: pointer;
+        
+    }
+    
+    .barra{
+        margin-left: 70px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    
+    .btn:hover {
+        color: #d9d9d9;
+        background-color: #457b9d;
+    }
+    
+    @media screen and (max-width: 400px) {
+        .search{
+            display: inline-flex;
+            }
+            
+            .btn{
+                font-family: "Open Sans";
+                font-size: 18px;
+                background: #003566;
+                width: 80px;
+                height: 40px;
+                text-align: center;
+                color: #d9d9d9;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            
+            .barra{
+                margin-left: 1px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            
+            .btn:hover {
+                color: #d9d9d9;
+                background-color: #457b9d;
+            }
+    }

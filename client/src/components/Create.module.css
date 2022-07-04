@@ -1,0 +1,297 @@
+.content{
+    background-image: url("../images/pokemon-wallpaper.jpn.jpg");
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 143vh;
+    padding-top: 14px;
+}
+.container{
+    display: inline-block;
+    backdrop-filter: blur(11px);
+    background: transparent;
+    margin-left: 1rem;
+    box-shadow: grey 0px 0px 20px;
+    width: 22rem;
+    border-radius: 1px;
+    margin-top: 0.5rem;
+}
+
+.btn4{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    background: grey;
+    padding: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    width: 2.5rem;
+    height: 1rem;
+    margin-left: 30rem;
+    position: absolute;
+    margin-top: 2rem;
+    
+}
+
+.lin{
+    text-decoration: none;
+    color: #fff;
+}
+
+.text{
+    font-size: 1.5rem;
+    margin-left: 1.7rem;
+    font-weight: bold;
+    margin-top: 1.3rem;
+    color: black;
+    font-family: "Calibri";
+}
+
+.cint{
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+.cint2{
+    background: white; /* borde del escrito de cada box*/
+    width: 85%;
+    padding: 10px;
+    border-radius: 1px;
+    margin-bottom: 1.5px;
+    border: 1px solid black;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+.cint3{
+    margin-left: 1.8rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #d9d9d9;
+}
+
+.content2{
+    width: 0.5rem;
+    margin: 0.3rem 2rem 0 2rem;
+    display: inline-block;
+    flex-wrap: wrap;
+}  
+
+.content div label {
+    cursor: pointer;
+}
+
+.content div label input[type="checkbox"]
+{
+    display: none;
+}
+
+.content div label span{
+
+    position: relative;
+    display: inline-block;
+    background: rgba(128, 128, 128, 0.377);
+    padding: 4px 4px;
+    color: black;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+
+.content div label span:before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: transparent;
+}
+
+.content div:nth-child(6n+3) label input[type="checkbox"]:checked ~ span
+{
+    background: #4cc9f0;
+    color: white;
+    box-shadow: 0 2px 20px #4cc9f0;
+}
+
+.content div:nth-child(6n+4) label input[type="checkbox"]:checked ~ span
+{
+    background: #22577a;
+    color:  #fff;
+    box-shadow: 0 2px 20px #22577a;
+}
+
+.content div:nth-child(6n+5) label input[type="checkbox"]:checked ~ span
+{
+    background: #81b29a;
+    color:  #fff;
+    box-shadow: 0 2px 20px #81b29a;
+}
+
+.content div:nth-child(6n+6) label input[type="checkbox"]:checked ~ span
+{
+    background: #bb3e03;
+    color:  #fff;
+    box-shadow: 0 2px 20px #bb3e03;
+}
+
+.content div:nth-child(6n+7) label input[type="checkbox"]:checked ~ span
+{
+    background: #f4e285;
+    color:  #fff;
+    box-shadow: 0 2px 20px #f4e285;
+}
+
+.content div:nth-child(6n+8) label input[type="checkbox"]:checked ~ span
+{
+    background: #adb5bd;
+    color:  #fff;
+    box-shadow: 0 2px 20px #adb5bd;
+}
+
+.content div label input[type="checkbox"]:checked ~ span
+{
+    background: #b8b8ff;
+    color:  #fff;
+    box-shadow: 0 2px 20px #b8b8ff;
+}
+
+.btn{
+    font-family: "Open Sans";
+    font-size: 17px;
+    background: transparent;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    
+}
+
+.btn2{
+    font-family: "Open Sans";
+    font-size: 17px;
+    background: transparent;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.texterror{
+    color: black;
+}
+
+.texterror2{
+    color: black;
+    margin-left: 9.3rem;
+    font-family: "calibri";
+    font-size: 1.2rem;
+}
+
+.btn4:hover{
+    color: #d9d9d9;
+    background-color: #219ebc;
+}
+
+.btn:hover {
+    color: #d9d9d9;
+    background-color: #219ebc;
+}
+
+.left{
+    border: solid #d9d9d9;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px; 
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+@media screen and (max-width: 1050px){
+    .container{
+        display: inline-block;
+        background: #00296b;
+        margin-left: 10rem;
+        box-shadow: black 0px 0px 20px;
+        width: 27.5rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #067bc2;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: 5rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 400px){
+    .content{
+        background-image: url("../images/pokemonhome.png");
+        background-size: 100% 100%;
+        width: 170vw;
+        height: 170vh;
+        padding-top: 14px;
+    }
+    
+    .container{
+        display: inline-block;
+        background: #00296b;
+        margin-left: 5rem;
+        box-shadow: black 0px 0px 20px;
+        width: 27.5rem;
+        border-radius: 5px;
+        margin-top: 2rem;
+    }
+    .btn4{
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: bold;
+        background: #067bc2;
+        padding: 8px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d9d9d9;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        width: 2.5rem;
+        height: 2rem;
+        margin-left: 1rem;
+        position: absolute;
+        margin-top: 2rem;
+        
+    }
+}
